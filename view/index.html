@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Note</title>
+</head>
+<body>
+
+<div>
+    <form action="/getnotes/">
+        <button type="submit">get notes</button>
+    </form>
+    <form action="/search/">
+        <label for="ser">search</label>
+        <input type="text" name="search" id="ser" placeholder="search">
+
+        <button type="submit">get notes</button>
+    </form>
+</div>
+  <form action="/add" method="POST">
+    <label for="fer">note type</label>
+    <input type="text" name="type" id="fer" placeholder="note type">
+
+    <label for="las">note</label>
+    <input type="text" name="note" id="las" placeholder="noe">
+
+    <input type="submit" >
+  </form>
+</body>
+</html>
